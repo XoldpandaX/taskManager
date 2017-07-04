@@ -5,7 +5,9 @@ var c = console.log;
 var btnAdd     = document.getElementById('add'),
     textField  = document.getElementById('text_field'),
     dontShow   = true,
-    tasks      = [];
+    tasks      = [],
+    massk = true,
+    crack = 'due';
 
 btnAdd.addEventListener('click', function() {
     toggle(textField);
