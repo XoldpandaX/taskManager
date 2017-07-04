@@ -1,0 +1,8 @@
+#folder for ignore files
+ignor/
+
+#setting for phpstorm
+.idea/
+
+#.txt files
+docs/*.txt
